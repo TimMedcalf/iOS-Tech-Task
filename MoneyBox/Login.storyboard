@@ -18,18 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login ..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OK-Xi-XJN">
-                                <rect key="frame" x="20" y="348.5" width="106" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter your details ..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OK-Xi-XJN">
+                                <rect key="frame" x="20" y="328" width="188" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onw-FI-vlp">
-                                <rect key="frame" x="174" y="541" width="66" height="35"/>
-                                <color key="tintColor" name="AccentColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Login"/>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gso-8Z-FwX" userLabel="Central View">
                                 <rect key="frame" x="0.0" y="385" width="414" height="140"/>
                                 <subviews>
@@ -61,18 +55,24 @@
                                     <constraint firstItem="83t-El-4uC" firstAttribute="top" secondItem="gso-8Z-FwX" secondAttribute="topMargin" constant="8" id="tZX-I2-tca"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2n-cS-p2G" userLabel="LoginButton">
+                                <rect key="frame" x="174" y="541" width="66" height="35"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="acR-sl-ate"/>
                         <color key="backgroundColor" name="GreyColor"/>
                         <constraints>
                             <constraint firstItem="gso-8Z-FwX" firstAttribute="centerY" secondItem="acR-sl-ate" secondAttribute="centerY" id="1w8-hi-2FG"/>
-                            <constraint firstItem="onw-FI-vlp" firstAttribute="centerX" secondItem="gso-8Z-FwX" secondAttribute="centerX" id="2OQ-y7-DNT"/>
                             <constraint firstItem="gso-8Z-FwX" firstAttribute="leading" secondItem="acR-sl-ate" secondAttribute="leading" id="4Me-r6-gTg"/>
                             <constraint firstItem="7OK-Xi-XJN" firstAttribute="leading" secondItem="chM-je-gA4" secondAttribute="leadingMargin" id="4mt-h3-oju"/>
-                            <constraint firstItem="onw-FI-vlp" firstAttribute="top" secondItem="gso-8Z-FwX" secondAttribute="bottom" constant="16" id="CuP-7U-28A"/>
                             <constraint firstItem="acR-sl-ate" firstAttribute="trailing" secondItem="7OK-Xi-XJN" secondAttribute="trailing" constant="288" id="ZH2-vd-yLk"/>
+                            <constraint firstItem="c2n-cS-p2G" firstAttribute="top" secondItem="gso-8Z-FwX" secondAttribute="bottom" constant="16" id="dc0-aM-vaP"/>
                             <constraint firstItem="gso-8Z-FwX" firstAttribute="centerX" secondItem="chM-je-gA4" secondAttribute="centerX" id="g6O-xt-94u"/>
                             <constraint firstItem="gso-8Z-FwX" firstAttribute="top" secondItem="7OK-Xi-XJN" secondAttribute="bottom" constant="16" id="lJU-1l-BNV"/>
+                            <constraint firstItem="c2n-cS-p2G" firstAttribute="centerX" secondItem="acR-sl-ate" secondAttribute="centerX" id="wFY-oc-5hr"/>
                         </constraints>
                     </view>
                 </viewController>
