@@ -1,3 +1,11 @@
+# Tim Medcalf - iOS Technical Challenge Submission README
+- 2023_09_20 TODO : Build in Xcode 15 (but still supporting iOS 13)
+- TODO: LaunchScreen / Default.png
+- TODO: Initial root login page
+- TODO: AccountsList VC
+- TODO: Account Details VC
+
+---
 
 # Moneybox iOS Technical Challenge
 
